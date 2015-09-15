@@ -180,7 +180,7 @@ static void asus_chg_set_chg_mode(enum usb_chg_type chg_src)
 }
 #endif
 
-static int otg_hack_active = 0;
+static int otg_hack_active = 1;
 module_param_named(otg_hack_enable,
 			otg_hack_active,
 			int, 0664);
